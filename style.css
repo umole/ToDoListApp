@@ -12,6 +12,47 @@
 }
 
 .card {
-    width: 70%;
-    min
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 70px auto 100px;
+    padding: 20px ;
+}
+
+.card h2{
+    display: flex;
+    margin-bottom: 20px;
+    color: #153677;
+    text-align: center;
+}
+
+.card h2 img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.row {
+    background:rgb(226, 223, 223) ;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.row input {
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-weight: 14px;
+}
+
+.row button {
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background-color: chocolate;
+    border-radius: 30px;
 }
